@@ -3,26 +3,28 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding: 1em;
 }
+
 .container {
     width:65%;
     margin: 0 auto;
     background-color: #dcd6f7;
-    border-radius: .8em;
-    box-shadow: 0 3px 3px rgba(3, 3, 3, .4);
+    border-radius: 1.2em;
+    box-shadow: 0 3px 3px rgba(4, 5, 5, .4);
 }
+
 header,footer{
     background-color: #a6b1e1;
     color: #fff;
     border-radius: .8em;
     text-align: center;
     padding: .5em;
-    text-shadow: 0 3px 3px rgba(3, 3, 3, .4);
-    
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
 }
 
 header{
     font-size: 1.5em;
 }
+
 header img{
     float: right;
     max-width: 6em;
