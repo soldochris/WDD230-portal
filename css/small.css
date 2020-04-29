@@ -15,9 +15,9 @@ body{
 header,footer{
     background-color: #a6b1e1;
     color: #fff;
-    border-radius: .8em;
     text-align: center;
     padding: .5em;
+    border-radius: .8em;
     text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
 }
 
@@ -41,11 +41,15 @@ main h2{
     font-size: 1.2em;
 }
 
+main ul li{
+    line-height: 1.8;
+}
+
 footer a{
     color: #fff;
 }
 
 footer p:last-of-type{
     color: #FFEFB8;
-    font-weight: 700;
+    font-weight: 400;
 }
