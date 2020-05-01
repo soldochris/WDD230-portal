@@ -7,7 +7,7 @@ body {
 .container {
     max-width: 90%;
     margin: 0 auto;
-    background-color: #dcd6f7;
+    background-color: #eee;
     border-radius: 1.2em;
     box-shadow: 0 3px 3px rgba(4, 5, 5, .4);
 }
@@ -83,13 +83,18 @@ footer p:last-of-type {
 @media screen and (max-width: 480px) {
 
     /* Small */
-    header a{
-        margin-left: .2em;
+
+    body{
+        padding: .2em;
+    }
+   
+    .container{
+        width: 95%;
     }
 
-    .container{
-        max-width: 100%;
-    }
+     header a {
+         margin-left: .2em;
+     }
 
     .grid{
         display: block;
@@ -102,10 +107,16 @@ footer p:last-of-type {
 
 @media screen and (min-width:481px) and (max-width: 760px) {
     /* Medium*/
+
+    body {
+        padding: .5em;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap:1em;
+        width: 90%;
     }
 }
 
