@@ -34,20 +34,41 @@ header h1 {
     font-size: 2em;
 }
 
+header a{
+    color:#fff;
+    text-decoration: none;
+}
+
 main {
     padding: 1em;
     text-align: center;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:1em;
-}
-
 .card{
     border: 1px #a6b1e1 solid;
     border-radius: .5em;
+    padding: .5em;
+}
+
+.card h2{
+    border-bottom:solid 3px #424874;
+    margin:0;
+    padding: .5em;
+    padding-top: 1em;
+    min-height: 2.5em;
+    line-height: 100%;
+}
+
+.card img{
+    margin: 1.5em 0;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: .5em;
+    max-width: 100%;
+}
+
+.card p{
+    font-size: 1.1em;
+    line-height: 1.7;
 }
 
 footer a {
@@ -57,4 +78,43 @@ footer a {
 footer p:last-of-type {
     color: #FFEFB8;
     font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Small */
+    header a{
+        margin-left: .2em;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+
+    .grid{
+        display: block;
+    }
+
+    .card{
+        margin: 1em 0;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width: 760px) {
+    /* Medium*/
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:1em;
+    }
+}
+
+@media screen and (min-width:761px) {
+    /* large*/
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+
 }
