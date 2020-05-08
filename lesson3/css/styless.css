@@ -54,7 +54,13 @@ nav ul{
 }
 nav ul li{
     flex-grow: 1;
+    border-right: 1px solid #424874;
 }
+
+nav ul li:last-child{
+    border-right: none;
+}
+
 nav ul li a{
     color: #2F4858;
     text-decoration: none;
@@ -138,6 +144,11 @@ footer p:last-of-type {
 
     nav ul li{
         padding: 1em 0;
+        border-bottom: 1px #424874 solid;
+    }
+
+    .domain img{
+        max-width: 100%;
     }
 
 }
