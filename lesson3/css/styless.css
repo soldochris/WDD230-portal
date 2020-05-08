@@ -138,6 +138,45 @@ section{
     font-weight: bold;
 }
 
+/* color scheme */
+
+.color-scheme table{
+    margin: 0 auto;
+    width: 80%;
+    border-spacing: .2em;
+}
+
+.color-scheme table tr td{
+    border: 1px #555 solid;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+.color-scheme table tr td:nth-of-type(1){
+    font-weight: bold;
+}
+
+.color-scheme table tr td:nth-of-type(2) {
+    color: #fff;
+    font-weight: bold;
+}
+
+.primary-color{
+    background-color: #A6B1E1;
+}
+
+.secondary-color {
+    background-color: #424874;
+}
+
+.accent1-color {
+    background-color: #7CC6FE;
+}
+
+.accent2-color {
+    background-color: #2F4858;
+}
+
 footer{
     border-radius: .0 .0 .8em .8em;
 }
