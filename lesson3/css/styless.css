@@ -73,17 +73,14 @@ nav ul li a:hover {
     color: #fff;
 }
 
-nav ul li a:active {
-    background-color: #2F4858;
-    color: #fff;
-}
-
 section{
     padding: 1em;
     border: 1px #ccc solid;
     line-height: 1.8;
     font-weight: 400;
 }
+
+/* Home */
 
 .purpose{
     padding: 1em 3em;
@@ -97,7 +94,48 @@ section{
 }
 
 .logo img{
-   max-width: 50%;
+    max-width: 50%;
+}
+
+/* Target audience */
+
+.audience{
+    padding: 0 2em;
+    border-bottom: 1px #ccc solid;
+}
+
+.personas{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.personas h3{
+    grid-column: 1/-1;
+}
+
+.personas div{
+    border: 1px #ccc solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+}
+
+.personas div h4{
+    text-decoration: underline;
+    text-decoration-color: #7CC6FE;
+    text-decoration-thickness: .2em;
+    text-underline-position: under;
+}
+
+.scenarios dl{
+    text-align: left;
+    padding: 1em;
+    margin: 0 2em;
+}
+
+.scenarios dl dt{
+    font-weight: bold;
 }
 
 footer{
@@ -145,12 +183,25 @@ footer p:last-of-type {
     nav ul li{
         padding: 1em 0;
         border-bottom: 1px #424874 solid;
+        border-right: none;
     }
 
     .domain img{
         max-width: 100%;
     }
 
+    .personas{
+        display: block;
+    }
+
+    .personas div{
+        max-width: 100%;
+        margin-bottom: .5em;
+    }
+
+    .scenarios dl {
+        margin: 0 .5em;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width: 760px) {
@@ -176,7 +227,7 @@ footer p:last-of-type {
     nav ul{
         font-size: .7em;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
     }
 
     nav ul li{
@@ -185,10 +236,12 @@ footer p:last-of-type {
         padding: .2em 0;
     }
 
-}
+    .personas {
+        display: block;
+    }
 
-@media screen and (min-width:761px) {
-    /* large*/
-
-
+    .personas div {
+        max-width: 100%;
+        margin-bottom: .5em;
+    }
 }
