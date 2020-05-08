@@ -1,0 +1,183 @@
+body {
+    background-color: #424874;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #eee;
+    border-radius: 1.2em;
+    box-shadow: 0 3px 3px rgba(4, 5, 5, .4);
+}
+
+header,
+footer {
+    background-color: #a6b1e1;
+    color: #fff;
+    text-align: center;
+    padding: .5em;
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    border-radius: .8em .8em 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    text-align: center;
+    margin: 0;
+}
+
+nav{
+    background-color: #7CC6FE;
+    margin-top: 0;
+    max-width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: #2F4858;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 1em;
+}
+
+nav ul li a:hover {
+    background-color: #2F4858;
+    color: #fff;
+}
+
+nav ul li a:active {
+    background-color: #2F4858;
+    color: #fff;
+}
+
+section{
+    padding: 1em;
+    border: 1px #ccc solid;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.purpose{
+    padding: 1em 3em;
+}
+
+.domain img{
+    max-width: 80%;
+    border-radius: .5em;
+    box-shadow: 0 3px 3px rgba(4, 5, 5, .4);
+
+}
+
+.logo img{
+   max-width: 50%;
+}
+
+footer{
+    border-radius: .0 .0 .8em .8em;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p:last-of-type {
+    color: #FFEFB8;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Small */
+    
+    body{
+        padding: .2em;
+    }
+
+    .container{
+        width: 95%;
+    }
+
+    header{
+        padding: .4em;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+
+    nav ul{
+        display: block;
+        padding: 0;
+    }
+
+    nav ul li{
+        padding: 1em 0;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width: 760px) {
+    /* Medium*/
+
+    body {
+        padding: .5em;
+    }
+
+    header{
+        padding: .6em;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+
+
+    nav ul{
+        font-size: .7em;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    nav ul li{
+        flex-grow: 1;
+        margin: 0;
+        padding: .2em 0;
+    }
+
+}
+
+@media screen and (min-width:761px) {
+    /* large*/
+
+
+}
