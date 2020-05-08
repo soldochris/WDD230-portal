@@ -177,6 +177,35 @@ section{
     background-color: #2F4858;
 }
 
+/* Typography */
+.typography{
+    padding: 2em;
+}
+
+.typography p{
+    padding: 0 3em;
+}
+
+.typography div>h3{
+    text-decoration: underline;
+    text-decoration-color: #7CC6FE;
+    text-decoration-thickness: .2em;
+    text-underline-position: under;
+}
+
+.typography div ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.typography div ul li{
+    border: 1px #555 solid;
+    border-radius: .5em;
+    flex-grow: 1;
+    margin: .3em;
+}
+
 footer{
     border-radius: .0 .0 .8em .8em;
 }
@@ -240,6 +269,10 @@ footer p:last-of-type {
 
     .scenarios dl {
         margin: 0 .5em;
+    }
+
+    .typography p {
+        padding: 0;
     }
 }
 
