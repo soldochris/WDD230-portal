@@ -40,6 +40,7 @@ header img{
 
 nav{
     background: linear-gradient(to bottom, #A6B1E1 50% , #7CC6FE 100%);
+    box-shadow: 0 4px 6px -6px black;
 }
 
 .navigation{
@@ -99,6 +100,7 @@ footer{
     padding: 1em;
     text-align: center;
     line-height: 1.7;
+    font-size: .8em;
 }
 
 footer p:first-child {
