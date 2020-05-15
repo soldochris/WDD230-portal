@@ -27,15 +27,15 @@ header img{
 
 .title h1{
     margin:.3em;
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .title h3 {
-    font-size: 1em;
-    font-weight: 300;
+    font-size: 0.8em;
+    font-weight: 700;
     color: rgba(0, 0, 0, 0.6);
-    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+    line-height: 1.5em;
 }
 
 nav{
@@ -82,7 +82,29 @@ main h2{
 }
 
 .temporary{
-    border: 1px dotted #7CC6FE;
+    border: 2px dashed #2F4858;
     margin: 1em auto;
-    padding: 1em; 
+    padding: 1em;
+    background-color: #A6B1E1;
+    border-radius: .5em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15),
+    0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer{
+    background-color: #424874;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    line-height: 1.7;
+}
+
+footer p:first-child {
+    font-style: italic;
+}
+
+footer p:last-child{
+    font-weight: 300;
 }
