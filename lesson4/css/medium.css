@@ -9,10 +9,15 @@
     .navigation li {
         display: block;
         flex: 1 1 auto;
+        border-right: 1px solid rgba(0, 0, 0, .1);
     }
 
     .navigation li a {
         text-align: center;
+    }
+
+    .navigation li:last-of-type{
+        border-right:none;
     }
 
     .navigation li:first-child {

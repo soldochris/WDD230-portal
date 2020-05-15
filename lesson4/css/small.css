@@ -63,7 +63,7 @@ nav{
     text-decoration: none;
     color: white;
     font-weight: 700;
-    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 .navigation li a:hover {
