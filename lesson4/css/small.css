@@ -28,15 +28,18 @@ header img{
 .title h1{
     margin:.3em;
     font-size: 1.8em;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .title h3 {
     font-size: 1em;
     font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
 }
 
 nav{
-    background-color: #A6B1E1;
+    background: linear-gradient(to bottom, #A6B1E1 50% , #7CC6FE 100%);
 }
 
 .navigation{
@@ -54,17 +57,32 @@ nav{
 
 .navigation li a {
     display: block;
-    padding: 0.75rem;
+    padding: .8rem 2%;
     text-align: center;
     text-decoration: none;
     color: white;
     font-weight: 700;
+    border-top: 1px solid rgba(0, 0, 0, .2);
 }
 
 .navigation li a:hover {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .appear li {
     display: block;
+}
+
+main{
+    padding: 1em;
+}
+
+main h2{
+    text-align: center;
+}
+
+.temporary{
+    border: 1px dotted #7CC6FE;
+    margin: 1em auto;
+    padding: 1em; 
 }
