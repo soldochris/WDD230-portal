@@ -1,4 +1,7 @@
 @media only screen and (min-width: 32.5em) {
+    .title h1 {
+        font-size: 1.8em;
+    }
     .navigation {
         display: flex;
     }
@@ -10,10 +13,15 @@
 
     .navigation li a {
         text-align: center;
-        padding:.8rem 1rem;
     }
 
     .navigation li:first-child {
         display: none;
     }
+
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
 }
