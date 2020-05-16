@@ -8,6 +8,7 @@ let month = date.getMonth();
 let dateNum = date.getDate();
 let dayNum = date.getDay();
 
+let day;
 for (let i = 0; i < days.length - 1; i++) {
     if (i == dayNum) {
         day = days[i];
