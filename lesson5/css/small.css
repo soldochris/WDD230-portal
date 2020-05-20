@@ -93,6 +93,7 @@ main h2{
     min-height: 10em;
     margin-bottom: 2em;
     border-radius: .2em;
+    box-shadow: 0 4px 6px -6px black;
 }
 
 .hero-summary{

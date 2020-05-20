@@ -3,6 +3,16 @@
         font-size: 2em;
     }
 
+    .hero {
+        min-height: 20em;
+    }
+
+    .hero-summary {
+        top:2em;
+        left:2em;
+        font-size: 1em;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;
