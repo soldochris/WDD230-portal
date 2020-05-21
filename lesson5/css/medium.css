@@ -80,11 +80,29 @@
         max-width: 15em;
         margin-left: 1em;
     }
-    
+
     .blog .author {
         display: block;
     }
     .blog p {
         display: inline;
+    }
+
+    .contact-info {
+        margin-top: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .contact-info img {
+        display: block;
+        width: 80%;
+        margin-right: 2em;
+    }
+
+    .wrapper-info{
+        width: 50%;
     }
 }
