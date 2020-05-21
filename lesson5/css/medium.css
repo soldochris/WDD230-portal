@@ -109,4 +109,8 @@
     .wrapper-info{
         width: 50%;
     }
+
+    .wrapper-info ul li {
+        margin: 0 .1em;
+    }
 }

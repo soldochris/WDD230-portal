@@ -39,6 +39,12 @@
         font-size: 1em;
     }
 
+    .wrapper-info ul li {
+        display: inline;
+        font-size: 2em;
+        margin: 0 .2em;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;
