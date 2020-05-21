@@ -22,3 +22,8 @@ const hamButton = document.querySelector('#hamBtn');
 const navigation = document.querySelector('.navigation');
 
 hamButton.addEventListener('click', () => { navigation.classList.toggle('appear') }, false);
+
+if (day == "Friday"){
+    let aside = document.getElementById("aside");
+    aside.style.display = "block";
+}

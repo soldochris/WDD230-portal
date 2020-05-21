@@ -6,6 +6,15 @@ body{
     font-family: 'Montserrat',
     sans-serif;
 }
+
+aside{
+    background-color: #ffc107;
+    padding:1em;
+    text-align: center;
+    font-weight: bold;
+    color: #856404;
+}
+
 header{
     background-color: #424874;
     color: white;
