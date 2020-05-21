@@ -37,4 +37,40 @@
         top:1.5em;
         left:1.5em;
     }
+
+    .forecast{
+        display: block;
+        text-align: center;
+    }
+
+    .forecast table{
+        border: 1px solid #555;
+        margin: .5em auto;
+        border-radius: .2em;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
+        0 2px 2px rgba(0, 0, 0, 0.15),
+        0 4px 4px rgba(0, 0, 0, 0.15),
+        0 8px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .forecast table tr th{
+        background-color: #A6B1E1;
+        color: #fff;
+        padding: .5em;
+    }
+    .forecast table tr td{
+        padding: .5em;
+        color: #2F4858;
+        font-weight:bold;
+        border-left: 1px solid #A6B1E1;
+    }
+
+    .forecast table tr td:first-of-type {
+        border-left: none;
+    }
+
+    .forecast .fa-sun{
+        color: #FAFF7F;
+        text-shadow: 3px 5px 5px #888;
+    }
 }
