@@ -74,4 +74,17 @@
         color: #FAFF7F;
         text-shadow: 3px 5px 5px #888;
     }
+
+    .blog img {
+        float:right;
+        max-width: 15em;
+        margin-left: 1em;
+    }
+    
+    .blog .author {
+        display: block;
+    }
+    .blog p {
+        display: inline;
+    }
 }
