@@ -22,7 +22,7 @@ const navigation = document.querySelector('.navigation');
 hamButton.addEventListener('click', () => { navigation.classList.toggle('appear') }, false);
 
 // If the actual day is Friday displays the banner
-if (day == "Thursday"){
+if (day == "Friday"){
     let aside = document.getElementById("aside");
     aside.style.display = "block";
 }
