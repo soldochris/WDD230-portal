@@ -16,6 +16,10 @@
         text-align: center;
     }
 
+    .navigation li a:hover {
+        background-color: rgba(0, 0, 0, .3);
+    }
+
     .navigation li:last-of-type{
         border-right:none;
     }
