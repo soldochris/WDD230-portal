@@ -90,17 +90,14 @@ main h2{
 }
 
 .hero{
-    border: 1px solid #2F4858;
-    background-image: url(../images/mountains.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
-    min-height: 10em;
     margin:1em;
     margin-bottom: 2em;
-    border-radius: .2em;
-    box-shadow: 0 4px 6px -6px black;
+}
+
+.hero picture img{
+    width: 100%;
+    border-radius: .8em;
 }
 
 .hero-summary{
@@ -190,7 +187,7 @@ main h2{
     padding: 1em;
 }
 
-.contact-info img{
+.contact-info .map{
     display: none;
 }
 

@@ -100,10 +100,10 @@
         width: 100%;
     }
 
-    .contact-info img {
+    .contact-info .map {
         display: block;
         width: 50%;
-        margin-right: 2em;
+        margin: 0 2em;
     }
 
     .wrapper-info{

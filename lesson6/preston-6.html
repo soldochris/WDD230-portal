@@ -17,7 +17,11 @@
         <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
     </aside>
     <header>
-        <img src="images/logo.png" alt="Real Weather Today logo">
+        <picture>
+            <source media="(max-width: 799px)" srcset="images/logo96w.png">
+            <source media="(min-width: 800px)" srcset="images/logo128w.png">
+            <img src="images/logo128w.png" alt="Real Weather Today logo">
+        </picture>
         <div class="title">
             <h1>Real Weather Today</h1>
             <h3>Whenever and Wherever You Need</h3>
@@ -37,13 +41,19 @@
     <main>
         <h2>Preston Idaho</h2>
         <article class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/small.jpg">
+                <source media="(max-width: 600px)" srcset="images/medium.jpg">
+                <source media="(max-width: 800px)" srcset="images/large.jpg">
+                <img src="images/large.jpg" alt="hero image">
+            </picture>
             <div class="hero-summary">
                 <h3>Weather Summary</h3>
                 <p>Currently: <span>Sunny</span></p>
-                <p>High: <span>76 °F</span></p>
-                <p>Wind Chill: <span>°F</span></p>
+                <p>High: <span>76</span>°F</p>
+                <p>Wind Chill: <span></span>°F</p>
                 <p>Humidity: <span>69%</span></p>
-                <p>Wind Speed: <span>5 mph</span></p>
+                <p>Wind Speed: <span>5</span> mph</p>
             </div>
         </article>
         <article class="forecast">
@@ -73,7 +83,11 @@
             </table>
         </article>
         <article class="blog">
-            <img src="images/community.jpg" alt="a picture of community meeting">
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/community377w.jpg">
+                <source media="(min-width: 800px)" srcset="images/community538w.jpg">
+                <img src="images/community538w.jpg" alt="a picture of community meeting">
+            </picture>
             <h3>Founders Day Fresco</h3>
             <p class="author">by Christian Soldevilla</p>
             <p>
@@ -95,7 +109,11 @@
             <a href="#">continue to full article</a>
         </article>
         <article class="contact-info">
-            <img src="images/map.jpg" alt="a map of our location">
+            <iframe class="map" id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28163.73619399447!2d-111.9033210029279!3d42.10001505535372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590175225846!5m2!1sen!2sus"
+                width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0">
+            </iframe>
             <div class="wrapper-info">
                 <h3>Real Weather Today</h3>
                 <div class="location">
