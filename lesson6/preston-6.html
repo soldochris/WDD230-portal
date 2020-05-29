@@ -50,10 +50,10 @@
             <div class="hero-summary">
                 <h3>Weather Summary</h3>
                 <p>Currently: <span>Sunny</span></p>
-                <p>High: <span>76</span>°F</p>
-                <p>Wind Chill: <span></span>°F</p>
-                <p>Humidity: <span>69%</span></p>
-                <p>Wind Speed: <span>5</span> mph</p>
+                <p>High: <span id="tempH">50</span>°F</p>
+                <p>Wind Chill: <span id="wChill"></span>°F</p>
+                <p>Humidity: <span>69</span>%</p>
+                <p>Wind Speed: <span id="wSpeed">12</span> mph</p>
             </div>
         </article>
         <article class="forecast">
@@ -143,6 +143,7 @@
             }
         });
     </script>
+    <script src="js/windchill.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
