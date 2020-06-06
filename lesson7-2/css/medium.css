@@ -28,4 +28,23 @@
         display: none;
     }
 
+    .gallery{
+        display: grid;
+        grid-gap: 1.5em;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        padding: .5em 1em;
+        margin-bottom: 1em;
+    }
+
+    .gallery h2{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .card{
+        align-self: start;
+        margin: 0 0 1em 0;
+    }
+
 }
