@@ -7,7 +7,7 @@ body{
   font-family: 'Lora', serif;
 }
 
-h1{
+h1, footer{
   text-align: center;
   background-color: rgb(36, 74, 196);
   color: white;
@@ -24,7 +24,7 @@ h1{
 
 section{
   margin:.5em;
-  width: 100%;
+  width: 17em;
   padding: 1em;
   background-color: rgba(36, 74, 196,.5);
   border-radius: .3em;
