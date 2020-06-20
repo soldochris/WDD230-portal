@@ -83,6 +83,14 @@
         transform: rotate(1deg);
     }
 
+    /******************** Index styles ***********************/
+    .cards{
+        display: flex;
+    }
+    .cards section{
+        display: block;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;
