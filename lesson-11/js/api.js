@@ -3,7 +3,6 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     document.getElementById('curr').innerText = jsObject.weather[0].description;
     document.getElementById('tempH').innerText = jsObject.main.temp_max;
     document.getElementById('hum').innerText = jsObject.main.humidity;

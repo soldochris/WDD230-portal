@@ -93,6 +93,10 @@
         display: inline;
     }
 
+    .events h3{
+        font-size: 1.5em;
+    }
+
     .contact-info {
         margin-top: 2em;
         display: flex;

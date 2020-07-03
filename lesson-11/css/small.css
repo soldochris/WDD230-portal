@@ -185,6 +185,32 @@ main h2{
     color: #fff;
 }
 
+.events {
+    background-color: #A6B1E1;
+    padding: 1em;
+    border-radius: .2em;
+    margin: 1em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
+        0 2px 2px rgba(0, 0, 0, 0.15),
+        0 4px 4px rgba(0, 0, 0, 0.15),
+        0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.events h3{
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ffc107;
+    color: #496F5D;
+}
+
+.events ul{
+    text-align: center;
+    margin-top: .5em;
+    line-height: 1.8;
+    padding: 0;
+    list-style: circle;
+}
+
 .contact-info{
     background-color: #A6B1E1;
     margin: 1em 0 0 0;
