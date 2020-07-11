@@ -15,7 +15,7 @@ for (let i = 0; i < days.length - 1; i++) {
     }
 }
 
-document.getElementById("currentDate").innerHTML = day + ", " + dateNum + " " + months[month] + " " + year + ".";
+document.getElementById("currentDate").innerHTML = days[dayNum] + ", " + dateNum + " " + months[month] + " " + year + ".";
 
 
 

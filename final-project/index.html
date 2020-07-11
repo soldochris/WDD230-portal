@@ -7,12 +7,167 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div>
+  <div class="hero">
     <picture>
-
+      <source media="(max-width: 400px)" srcset="images/heroSmall.jpg">
+      <source media="(max-width: 600px)" srcset="images/heroMedium.jpg">
+      <source media="(max-width: 800px)" srcset="images/heroLarge.jpg">
+      <img src="images/heroLarge.jpg" alt="hero image">
     </picture>
     <h1>Cozumel Scooters</h1>
     <a href="#">Make a Reservation</a>
   </div>
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Rentals</a>
+      </li>
+      <li>
+        <a href="#">Reservations</a>
+      </li>
+      <li>
+        <a href="#">Tours</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="type-rentals">
+    <h2>Type of Rentals</h2>
+    <div>
+      <picture>
+        <source media="(max-width: 799px)" srcset="images/hondaPCX280w.jpg">
+        <source media="(min-width: 800px)" srcset="images/hondaPCX400w.jpg">
+        <img src="images/hondaPCX400w.jpg" alt="picture of Honda PCX150">
+      </picture>
+      <h3>Honda Motor Scooters</h3>
+      <ul>
+        <li>Honda Metropolitan (49cc) - 1 person</li>
+        <li>Honda Dio (110cc) - 2 person</li>
+        <li>Honda PCX150 (149cc) - 2 person</li>
+      </ul>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 799px)" srcset="images/hondaPioneer280w.jpg">
+        <source media="(min-width: 800px)" srcset="images/hondaPioneer400w.jpg">
+        <img src="images/hondaPioneer400w.jpg" alt="picture of Pioneer 1000">
+      </picture>
+      <h3>ATV Side-by-Side</h3>
+      <ul>
+        <li>Honda Pioneer 1000</li>
+      </ul>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 799px)" srcset="images/jeepWrangler280w.jpg">
+        <source media="(min-width: 800px)" srcset="images/jeepWrangler400w.jpg">
+        <img src="images/jeepWrangler400w.jpg" alt="picture of 4 door Jeep Wrangler">
+      </picture>
+      <h3>Jeep Rentals</h3>
+      <ul>
+        <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+        <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+      </ul>
+    </div>
+  </section>
+  <section class="weather">
+    <h2>Weather in Cozumel</h2>
+    <div>
+      <img src=" " alt="Icon of the current weather">
+      <div>
+        <p>Temperature: <span></span>°F</p>
+        <p>Description: <span></span></p>
+        <p>Humidity: <span></span>%</p>
+      </div>
+    </div>
+    <table>
+      <table>
+        <tr>
+          <th><span id="nameDay1"></span></th>
+          <th><span id="nameDay2"></span></th>
+          <th><span id="nameDay3"></span></th>
+          <th><span id="nameDay4"></span></th>
+          <th><span id="nameDay5"></span></th>
+        </tr>
+        <tr>
+          <td><img src=" " alt="" id="imgForecast3"></td>
+          <td><img src=" " alt="" id="imgForecast11"></td>
+          <td><img src=" " alt="" id="imgForecast19"></td>
+          <td><img src=" " alt="" id="imgForecast27"></td>
+          <td><img src=" " alt="" id="imgForecast35"></td>
+        </tr>
+        <tr>
+          <td><span id="tempForecast3"></span>°F</td>
+          <td><span id="tempForecast11"></span>°F</td>
+          <td><span id="tempForecast19"></span>°F</td>
+          <td><span id="tempForecast27"></span>°F</td>
+          <td><span id="tempForecast35"></span>°F</td>
+        </tr>
+      </table>
+    </table>
+  </section>
+  <section class="contact">
+    <h2>Contact</h2>
+    <address>
+      <ul>
+        <li>
+          <a href="#">Phone: 999-999-999</a>
+        </li>
+        <li>
+          <a href="#">Email: contact@cozumelscooters.com</a>
+        </li>
+        <li>
+          <a href="#">Adress: Playa del Carmen-Cozumel Ferry dock</a>
+        </li>
+        <li>
+          <a href="#">Adress: Terminal Puerta Maya</a>
+        </li>
+      </ul>
+    </address>
+    <ul>
+      <li>
+        <a href="#" title="Facebook"></a>
+      </li>
+      <li>
+        <a href="#" title="Instagram"></a>
+      </li>
+      <li>
+        <a href="#" title="Twitter"></a>
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; Christian Soldevilla 2020</p>
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Rentals</a>
+      </li>
+      <li>
+        <a href="#">Reservations</a>
+      </li>
+      <li>
+        <a href="#">Tours</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <li>
+        <a href="#">Wireframes</a>
+      </li>
+      <li>
+        <a href="#">Resources</a>
+      </li>
+    </ul>
+    <p>Last Updated: <span id="updatedDate"></span></p>
+  </footer>
+  <script src="/js/script.js"></script>
 </body>
 </html>

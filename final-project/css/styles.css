@@ -436,6 +436,14 @@ template {
   display: none;
 }
 
+.hero {
+  max-width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
 /* end of media query */
 /* end of media query */
 /*# sourceMappingURL=styles.css.map */
