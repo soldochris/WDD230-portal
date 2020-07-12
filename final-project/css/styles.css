@@ -473,8 +473,8 @@ body {
   color: #fff;
 }
 
-.hero img {
-  width: 100vh;
+.hero img, .hero picture {
+  width: 100%;
 }
 
 .btn {
