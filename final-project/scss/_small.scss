@@ -71,6 +71,7 @@ nav {
   margin-top: -4px;
   position: sticky;
   top: 0;
+  box-shadow: 0 4px 6px -6px #000;
 }
 
 .navigation {
@@ -110,10 +111,13 @@ nav {
   display: flex;
   flex-flow: column;
   align-items: center;
+  border-bottom: 1px solid $textColor;
 
   h2{
     margin-bottom: 0;
+    text-decoration: underline $primaryColor;
   }
+
   div{
     border: 1px solid $secondaryColor;
     border-radius: .5rem;
@@ -155,6 +159,32 @@ nav {
         font-weight: bold;
         font-size: 1.5rem;
       }
+    }
+  }
+}
+
+.weather{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-bottom: 1px solid $textColor;
+
+  h2 {
+    margin-bottom: 0;
+    text-decoration: underline $primaryColor;
+  }
+
+  div{
+    display: flex;
+    margin: 1rem;
+    border: 1px solid red;
+
+    img{
+      width: 90%;
+    }
+
+    div{
+      flex-flow: column;
     }
   }
 }
