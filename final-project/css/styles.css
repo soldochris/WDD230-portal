@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -443,6 +444,7 @@ template {
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #444a57;
 }
 
 .hero {
@@ -549,6 +551,74 @@ nav {
 
 .active {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.type-rentals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.type-rentals h2 {
+  margin-bottom: 0;
+}
+
+.type-rentals div {
+  border: 1px solid #2E5077;
+  border-radius: .5rem;
+  width: 90%;
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.type-rentals div img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.type-rentals div h3 {
+  margin-bottom: 0;
+}
+
+.type-rentals div ul {
+  padding: 0 0 0 0;
+  list-style: none;
+}
+
+.type-rentals div ul li {
+  line-height: 1.5;
+  margin-bottom: .4rem;
+}
+
+.type-rentals div ul li:last-child {
+  margin-bottom: 0;
+}
+
+.type-rentals div ul li::before {
+  content: "•";
+  color: #24D000;
+  display: inline-block;
+  width: .7rem;
+  margin: 0 .3rem 0 .5em;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 560px) {
