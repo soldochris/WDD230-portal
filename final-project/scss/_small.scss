@@ -188,12 +188,24 @@ nav {
       background-color: rgba(46, 80, 119, .3);
       border-radius: .5rem;
       box-shadow:2px 2px 3px rgba(0, 0, 0, .4);
+      padding: .5rem;
+      line-height: 1;
+      p{
+        margin: .5rem 0;
+      }
     }
   }
 
   table{
     color: #fff;
     text-align: center;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    tr{
+      margin: 1rem;
+      padding: 1rem;
+    }
+
     th{
       background-color: $primaryColor;
       font-size: 1.5rem;
@@ -247,3 +259,16 @@ nav {
   }
 }
 
+footer{
+  text-align: center;
+  ul{
+    list-style: none;
+    line-height: 1.7;
+  }
+
+  a{
+    color: $primaryColor;
+    text-decoration-color: $secondaryColor;
+    font-weight: bold;
+  }
+}

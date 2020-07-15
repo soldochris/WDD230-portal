@@ -667,11 +667,24 @@ nav {
   border-radius: .5rem;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
           box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+  padding: .5rem;
+  line-height: 1;
+}
+
+.weather div div p {
+  margin: .5rem 0;
 }
 
 .weather table {
   color: #fff;
   text-align: center;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+.weather table tr {
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .weather table th {
@@ -725,6 +738,22 @@ nav {
 
 .contact .social-list li:last-child {
   margin-bottom: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  line-height: 1.7;
+}
+
+footer a {
+  color: #24D000;
+  -webkit-text-decoration-color: #2E5077;
+          text-decoration-color: #2E5077;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 560px) {
