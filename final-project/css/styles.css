@@ -651,10 +651,17 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin: 1rem;
+  background-color: rgba(46, 80, 119, 0.3);
+  border-radius: .5rem;
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .weather div img {
-  width: 40%;
+  width: 30%;
 }
 
 .weather div div {
@@ -662,12 +669,13 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  width: 60%;
-  background-color: rgba(46, 80, 119, 0.3);
-  border-radius: .5rem;
-  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
-          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
-  padding: .5rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 70%;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   line-height: 1;
 }
 
@@ -680,20 +688,23 @@ nav {
   text-align: center;
   margin-bottom: 1rem;
   border-collapse: collapse;
+  max-width: 100%;
 }
 
 .weather table tr {
   margin: 1rem;
-  padding: 1rem;
 }
 
 .weather table th {
   background-color: #24D000;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: .9rem;
+  padding: .4rem;
 }
 
 .weather table td {
   background-color: #2E5077;
+  font-size: .7rem;
 }
 
 .contact h2 {
@@ -704,6 +715,7 @@ nav {
   list-style: none;
   line-height: 1.7;
   margin-bottom: 0;
+  padding-left: 5%;
 }
 
 .contact ul li {
@@ -742,11 +754,13 @@ nav {
 
 footer {
   text-align: center;
+  background-color: rgba(46, 80, 119, 0.3);
 }
 
 footer ul {
   list-style: none;
   line-height: 1.7;
+  padding-left: 0;
 }
 
 footer a {
@@ -754,6 +768,15 @@ footer a {
   -webkit-text-decoration-color: #2E5077;
           text-decoration-color: #2E5077;
   font-weight: bold;
+}
+
+footer p:first-child {
+  padding-top: 1rem;
+}
+
+footer p:last-child {
+  font-size: .8rem;
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 560px) {

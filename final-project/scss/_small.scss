@@ -177,18 +177,21 @@ nav {
   div{
     display: flex;
     margin: 1rem;
+    background-color: rgba(46, 80, 119, .3);
+    border-radius: .5rem;
+    box-shadow:2px 2px 3px rgba(0, 0, 0, .4);
+    align-items: center;
 
     img{
-      width: 40%;
+      width: 30%;
     }
 
     div{
       flex-flow: column;
-      width: 60%;
-      background-color: rgba(46, 80, 119, .3);
-      border-radius: .5rem;
-      box-shadow:2px 2px 3px rgba(0, 0, 0, .4);
-      padding: .5rem;
+      align-items: flex-start;
+      width: 70%;
+      background-color: transparent;
+      box-shadow: none;
       line-height: 1;
       p{
         margin: .5rem 0;
@@ -201,18 +204,21 @@ nav {
     text-align: center;
     margin-bottom: 1rem;
     border-collapse: collapse;
+    max-width: 100%;
     tr{
       margin: 1rem;
-      padding: 1rem;
     }
 
     th{
       background-color: $primaryColor;
-      font-size: 1.5rem;
+      font-weight: 400;
+      font-size: .9rem;
+      padding: .4rem;
     }
 
     td{
       background-color: $secondaryColor;
+      font-size: .7rem;
     }
   }
 }
@@ -226,6 +232,7 @@ nav {
     list-style: none;
     line-height: 1.7;
     margin-bottom: 0;
+    padding-left: 5%;
     li{
       margin-bottom: .7rem;
     }
@@ -261,14 +268,25 @@ nav {
 
 footer{
   text-align: center;
+  background-color: rgba(46, 80, 119, .3);
   ul{
     list-style: none;
     line-height: 1.7;
+    padding-left: 0;
   }
 
   a{
     color: $primaryColor;
     text-decoration-color: $secondaryColor;
     font-weight: bold;
+  }
+
+  p:first-child{
+    padding-top: 1rem;
+  }
+
+  p:last-child{
+    font-size: .8rem;
+    margin-bottom: 0;
   }
 }
