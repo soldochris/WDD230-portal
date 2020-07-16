@@ -19,6 +19,7 @@ fetch(requestURL)
       let walkinHalf = document.createElement('li');
       let walkinFull = document.createElement('li');
       let image = document.createElement('img');
+      let link = document.createElement('a');
 
       image.setAttribute('src', 'images/'+ rental.image);
       image.setAttribute('alt', 'Photo of '+ rental.name);
@@ -30,6 +31,10 @@ fetch(requestURL)
       walkinTitle.textContent = 'Walk-In';
       walkinHalf.textContent = rental.walkin[0].halfDay + ' for Half Day';
       walkinFull.textContent = rental.walkin[0].fullDay + ' for Full Day';
+      link.textContent = 'Make a Reservation';
+      link.setAttribute('href','reservations.html');
+      link.setAttribute('class', 'btn');
+
 
       card.appendChild(image);
       card.appendChild(name);
@@ -42,6 +47,7 @@ fetch(requestURL)
       walkin.appendChild(walkinTitle);
       walkin.appendChild(walkinHalf);
       walkin.appendChild(walkinFull);
+      card.appendChild(link);
 
       document.getElementById('rentalCards').appendChild(card);
     });

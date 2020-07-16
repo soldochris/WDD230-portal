@@ -897,10 +897,18 @@ footer p:last-child {
   font-size: 1.2rem;
 }
 
-.rentals .info-rentals {
-  padding: 1rem;
+.rentals #rentalCards div .btn {
+  text-align: center;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: .5rem;
+  color: #24D000;
+  border: 1px solid #FFA630;
+  font-weight: 700;
 }
 
+/******************* reservation *******************/
 @media only screen and (min-width: 560px) {
   .hero h1 {
     font-size: 2.5rem;
@@ -1023,6 +1031,7 @@ footer p:last-child {
         align-self: baseline;
     height: 100%;
   }
+  /******************* reservation *******************/
 }
 
 /* end of media query */
@@ -1091,6 +1100,21 @@ footer p:last-child {
   footer p:last-child {
     padding-bottom: .5rem;
   }
+  /******************* rentals *******************/
+  .banner a {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+  }
+  .rentals #rentalCards {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .rentals #rentalCards .btn:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #FFA630;
+            text-decoration-color: #FFA630;
+  }
+  /******************* reservation *******************/
 }
 
 /* end of media query */

@@ -68,3 +68,24 @@ footer{
     padding-bottom: .5rem;
   }
 }
+
+/******************* rentals *******************/
+.banner{
+  a {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+  }
+}
+
+.rentals {
+  #rentalCards {
+    grid-template-columns: 1fr 1fr 1fr;
+    .btn:hover {
+      text-decoration: underline;
+      text-decoration-color: $accentColor1;
+    }
+  }
+
+}
+
+/******************* reservation *******************/
