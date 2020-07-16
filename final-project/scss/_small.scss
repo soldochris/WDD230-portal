@@ -7,7 +7,6 @@ body{
   color: $textColor;
 }
 
-
 .hero{
   max-width: 100%;
   position: relative;
@@ -306,3 +305,34 @@ footer{
     margin-bottom: 0;
   }
 }
+
+/******************* rentals *******************/
+.banner{
+  width: 100%;
+  position: relative;
+  h1 {
+    position: absolute;
+    margin: 0;
+    top: 10%;
+    left: 5%;
+    color: $primaryColor;
+    font-size: 2rem;
+    font-weight: 300;
+    text-shadow: 1px 2px 2px #555;
+    font-style: italic;
+    filter: drop-shadow(2px 2px #888);
+  }
+  a {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    background-color: rgba(46, 80, 119, .6);
+    color: #fff;
+  }
+
+  img,
+  picture {
+    width: 100%;
+  }
+}
+

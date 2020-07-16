@@ -798,6 +798,39 @@ footer p:last-child {
   margin-bottom: 0;
 }
 
+/******************* rentals *******************/
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+.banner h1 {
+  position: absolute;
+  margin: 0;
+  top: 10%;
+  left: 5%;
+  color: #24D000;
+  font-size: 2rem;
+  font-weight: 300;
+  text-shadow: 1px 2px 2px #555;
+  font-style: italic;
+  -webkit-filter: drop-shadow(2px 2px #888);
+          filter: drop-shadow(2px 2px #888);
+}
+
+.banner a {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  background-color: rgba(46, 80, 119, 0.6);
+  color: #fff;
+}
+
+.banner img,
+.banner picture {
+  width: 100%;
+}
+
 @media only screen and (min-width: 560px) {
   .hero h1 {
     font-size: 2.5rem;
@@ -821,7 +854,7 @@ footer p:last-child {
     text-align: center;
   }
   .navigation li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
   }
   .navigation li:first-child {
