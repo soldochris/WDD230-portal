@@ -831,6 +831,76 @@ footer p:last-child {
   width: 100%;
 }
 
+.rentals h2 {
+  text-align: center;
+  -webkit-text-decoration: underline #24D000;
+          text-decoration: underline #24D000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: .5rem;
+}
+
+.rentals #rentalCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rentals #rentalCards div {
+  width: 90%;
+  border: 1px solid #2E5077;
+  border-radius: .5rem;
+  margin: .5rem auto;
+  overflow: hidden;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.rentals #rentalCards div img {
+  width: 100%;
+}
+
+.rentals #rentalCards div h3 {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-top: .5rem;
+}
+
+.rentals #rentalCards div p {
+  text-align: center;
+}
+
+.rentals #rentalCards div ul {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+.rentals #rentalCards div ul lh {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.rentals #rentalCards div ul li::before {
+  content: "$";
+  color: #24D000;
+  display: inline-block;
+  width: .7rem;
+  margin: 0 .3rem 0 .5em;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.rentals .info-rentals {
+  padding: 1rem;
+}
+
 @media only screen and (min-width: 560px) {
   .hero h1 {
     font-size: 2.5rem;

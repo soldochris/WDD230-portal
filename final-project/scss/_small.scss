@@ -336,3 +336,61 @@ footer{
   }
 }
 
+.rentals{
+  h2 {
+    text-align: center;
+    text-decoration: underline $primaryColor;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    margin-bottom: .5rem;
+  }
+
+  #rentalCards{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    div{
+      width: 90%;
+      border: 1px solid $secondaryColor;
+      border-radius: .5rem;
+      margin: .5rem auto;
+      overflow: hidden;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      img {
+        width: 100%;
+      }
+
+      h3{
+        text-align: center;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+        margin-top: .5rem;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      ul{
+        text-align: center;
+        padding: 0;
+        list-style: none;
+        lh{
+          font-weight: 700;
+          font-size: 1.1rem;
+        }
+        li::before {
+          content: "$";
+          color: $primaryColor;
+          display: inline-block;
+          width: .7rem;
+          margin: 0 .3rem 0 .5em;
+          font-weight: bold;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .info-rentals{
+    padding: 1rem;
+  }
+}
