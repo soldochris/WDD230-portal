@@ -14,11 +14,15 @@ fetch(requestURL)
       let reservHalf = document.createElement('li');
       let reservFull = document.createElement('li');
       let walkin = document.createElement('ul');
+      let walkinHalf = document.createElement('li');
+      let walkinFull = document.createElement('li');
 
       name.textContent = rental.name;
       capacity.textContent = rental.maxPersons;
       reservHalf.textContent = rental.Reservation[0].halfDay;
       reservFull.textContent = rental.Reservation[0].fullDay;
+      walkinHalf.textContent = rental.Reservation[0].halfDay;
+      walkinFull.textContent = rental.Reservation[0].fullDay;
 
       card.appendChild(name);
       card.appendChild(capacity);

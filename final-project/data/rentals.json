@@ -4,13 +4,13 @@
       "name": "Honda Metro Scooter",
 
       "maxPersons": "1",
-      "Reservation": [
+      "reservation": [
         {
           "halfDay": "20",
           "fullDay": "30"
         }
       ],
-      "walkIn": [
+      "walkin": [
         {
           "halfDay": "25",
           "fullDay": "35"
@@ -21,13 +21,13 @@
     {
       "name": "Honda Dio Scooter",
       "maxPersons": "2",
-      "Reservation": [
+      "reservation": [
         {
           "halfDay": "30",
           "fullDay": "40"
         }
       ],
-      "walkIn": [
+      "walkin": [
         {
           "halfDay": "35",
           "fullDay": "45"
@@ -38,13 +38,13 @@
     {
       "name": "Honda PCX150 Scooter",
       "maxPersons": "2",
-      "Reservation": [
+      "reservation": [
         {
           "halfDay": "40",
           "fullDay": "50"
         }
       ],
-      "walkIn": [
+      "walkin": [
         {
           "halfDay": "$45",
           "fullDay": "$55"
@@ -55,13 +55,13 @@
     {
       "name": "Honda Pioneer ATV",
       "maxPersons": "4",
-      "Reservation": [
+      "reservation": [
         {
           "halfDay": "50",
           "fullDay": "70"
         }
       ],
-      "walkIn": [
+      "walkin": [
         {
           "halfDay": "60",
           "fullDay": "80"
@@ -72,13 +72,13 @@
     {
       "name": "Jeep Wrangler - 4 door with a/c",
       "maxPersons": "5",
-      "Reservation": [
+      "reservation": [
         {
           "halfDay": "70",
           "fullDay": "100"
         }
       ],
-      "walkIn": [
+      "walkin": [
         {
           "halfDay": "85",
           "fullDay": "125"
@@ -89,13 +89,13 @@
     {
       "name": "Jeep Wrangler - 2 door",
       "maxPersons": "4",
-      "Reservation": [
+      "reservation": [
         {
           "halfDay": "60",
           "fullDay": "85"
         }
       ],
-      "walkIn": [
+      "walkin": [
         {
           "halfDay": "$70",
           "fullDay": "$90"
