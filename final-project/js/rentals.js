@@ -19,16 +19,19 @@ fetch(requestURL)
 
       name.textContent = rental.name;
       capacity.textContent = rental.maxPersons;
-      reservHalf.textContent = rental.Reservation[0].halfDay;
-      reservFull.textContent = rental.Reservation[0].fullDay;
-      walkinHalf.textContent = rental.Reservation[0].halfDay;
-      walkinFull.textContent = rental.Reservation[0].fullDay;
+      reservHalf.textContent = rental.reservation[0].halfDay;
+      reservFull.textContent = rental.reservation[0].fullDay;
+      walkinHalf.textContent = rental.walkin[0].halfDay;
+      walkinFull.textContent = rental.walkin[0].fullDay;
 
       card.appendChild(name);
       card.appendChild(capacity);
       card.appendChild(reservation);
       reservation.appendChild(reservHalf);
       reservation.appendChild(reservFull);
+      card.appendChild(walkin);
+      walkin.appendChild(walkinHalf);
+      walkin.appendChild(walkinFull);
 
       document.getElementById('rentalCards').appendChild(card);
     });

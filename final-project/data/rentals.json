@@ -46,8 +46,8 @@
       ],
       "walkin": [
         {
-          "halfDay": "$45",
-          "fullDay": "$55"
+          "halfDay": "45",
+          "fullDay": "55"
         }
       ],
       "image": "hondaPCX400w.jpg"
@@ -97,8 +97,8 @@
       ],
       "walkin": [
         {
-          "halfDay": "$70",
-          "fullDay": "$90"
+          "halfDay": "70",
+          "fullDay": "90"
         }
       ],
       "image": "JeepWrangler2doors400w.jpg"
