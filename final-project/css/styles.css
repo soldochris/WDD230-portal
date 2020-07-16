@@ -891,10 +891,10 @@ footer p:last-child {
   content: "$";
   color: #24D000;
   display: inline-block;
-  width: .7rem;
+  width: .5rem;
   margin: 0 .3rem 0 .5em;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .rentals .info-rentals {
@@ -1003,6 +1003,25 @@ footer p:last-child {
   }
   footer p:last-child {
     font-size: .9rem;
+  }
+  /******************* rentals *******************/
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  .banner a {
+    font-size: 1.5rem;
+  }
+  .rentals #rentalCards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1.5rem;
+  }
+  .rentals #rentalCards div {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+    height: 100%;
   }
 }
 

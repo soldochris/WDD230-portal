@@ -110,3 +110,26 @@ footer{
     font-size: .9rem;
   }
 }
+
+/******************* rentals *******************/
+.banner{
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  a {
+    font-size: 1.5rem;
+  }
+}
+
+.rentals{
+  #rentalCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1.5rem;
+    div{
+      align-self: baseline;
+      height: 100%;
+    }
+  }
+}
