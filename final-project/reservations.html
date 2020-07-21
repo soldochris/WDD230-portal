@@ -42,23 +42,64 @@
   <main>
     <section class="reservation">
       <h2>Make a Reservation</h2>
-      <div class="info-rentals">
-        <h2>Information and Services</h2>
-        <ul class="list">
-          <li>A $50 security deposit is required to confirm reservations.</li>
-          <li>A valid drivers license is required in hand at time of rental.</li>
-          <li>No one under 12 years of age are allowed to ride on the scooters.</li>
-          <li>Fuel charge not included.</li>
-          <li>Unlimited mileage.</li>
-          <li>Liability insurance is free of charge.</li>
-          <li>Reservations rate requires 24 hour prior notification.</li>
-          <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
-          <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-          <li>Rentals may be returned to either location.</li>
-        </ul>
-      </div>
-      <form action="">
-
+      <form action="thank.html">
+        <div class="info-rentals">
+          <h3>Rental agreement information</h3>
+          <ul class="list">
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>A valid drivers license is required in hand at time of rental.</li>
+            <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+            <li>Fuel charge not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is free of charge.</li>
+            <li>Reservations rate requires 24 hour prior notification.</li>
+            <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+            <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+            <li>Rentals may be returned to either location.</li>
+          </ul>
+          <input type="checkbox" name="agreement" id="agreement" required>
+          <label for="agreement">Check here to indicate that you have read and agree to agree</label>
+        </div>
+        <h3>Rental details</h3>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date">
+        <label for="stormRegion">Rental type</label>
+        <select name="stormRegion" id="stormRegion">
+          <option selected="selected" disabled>Select a type ...</option>
+          <option value="preston">Honda Metro Scooter</option>
+          <option value="soda-springs">Honda Dio Scooter</option>
+          <option value="fish-haven">Honda PCX150 Scooter</option>
+          <option value="fish-haven">Honda Pioneer ATV</option>
+          <option value="fish-haven">Jeep Wrangler - 4 door with a/c</option>
+          <option value="fish-haven">Jeep Wrangler - 2 door </option>
+        </select>
+        <fieldset>
+          <legend>Select a Period</legend>
+          <div class="radio">
+            <input type="radio" id="halfDay" name="period" value="halfDay" class="radio">
+            <label for="halfDay">Half Day (3 hrs)</label>
+          </div>
+          <div class="radio">
+            <input type="radio" id="fullDay" name="period" value="fullDay" class="radio">
+            <label for="fullDay">Full Day</label>
+          </div>
+        </fieldset>
+        <label for="number">Number</label>
+        <input type="number" name="number" id="number">
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+        <label for="state">State</label>
+        <input type="text" name="state" id="state">
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country">
+        <label for="cruiseLine">Cruise Line</label>
+        <input type="text" name="cruiseLine" id="cruiseLine">
+        <label for="comments">special accommodations/comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
       </form>
     </section>
   </main>
