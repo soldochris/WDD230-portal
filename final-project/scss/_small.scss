@@ -430,3 +430,41 @@ footer{
     }
   }
 }
+
+/******************* Tours *******************/
+.tours{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+    text-decoration: underline $primaryColor;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    margin-bottom: .5rem;  
+  } 
+
+  div{
+    border: 1px solid $primaryColor;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    h3{
+      text-align: center;
+    }
+
+    img[data-src] {
+      filter: blur(0.5em);
+      border-radius: .5rem;
+    }
+
+    img {
+      filter: blur(0em);
+      transition: filter .6s;
+      z-index: -1;
+      width: 100%;
+      border-radius: .5rem;
+    }
+  }
+  
+}

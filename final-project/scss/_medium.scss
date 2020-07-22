@@ -138,3 +138,17 @@ footer{
 .reservation {
   width: 70%;
 }
+
+/******************* reservation *******************/
+.tours {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  h2{
+    grid-column: 1/-1;
+  }
+  div{
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+}

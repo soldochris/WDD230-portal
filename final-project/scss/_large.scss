@@ -92,3 +92,11 @@ footer{
 .reservation {
   width: 45%;
 }
+
+/******************* reservation *******************/
+.tours {
+  grid-template-columns: 1fr 1fr 1fr;
+  div{
+    padding: 1rem;
+  }
+}
