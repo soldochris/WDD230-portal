@@ -910,8 +910,12 @@ footer p:last-child {
 
 /******************* reservation *******************/
 .reservation {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.reservation .list input[type=checkbox] {
+  width: 1rem;
 }
 
 .reservation form {
@@ -922,6 +926,22 @@ footer p:last-child {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.reservation form input, .reservation form textarea, .reservation form select, .reservation form fieldset {
+  padding: .5rem;
+  border: 1px solid #24D000;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+.reservation form label {
+  margin-bottom: .3rem;
+}
+
+.reservation form input:last-child {
+  color: white;
+  background-color: #24D000;
 }
 
 @media only screen and (min-width: 560px) {
@@ -1047,6 +1067,9 @@ footer p:last-child {
     height: 100%;
   }
   /******************* reservation *******************/
+  .reservation {
+    width: 70%;
+  }
 }
 
 /* end of media query */
@@ -1130,6 +1153,9 @@ footer p:last-child {
             text-decoration-color: #FFA630;
   }
   /******************* reservation *******************/
+  .reservation {
+    width: 45%;
+  }
 }
 
 /* end of media query */

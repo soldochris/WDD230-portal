@@ -404,10 +404,29 @@ footer{
 
 /******************* reservation *******************/
 .reservation{
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
+  .list{
+    input[type=checkbox] {
+      width: 1rem;
+    }
+  }
   form{
     display: flex;
     flex-direction: column;
+    input, textarea,select,fieldset{
+      padding: .5rem;
+      border: 1px solid $primaryColor;
+      border-radius: .5rem;
+      margin-bottom: 1rem;;
+    }
+    label{
+      margin-bottom: .3rem;
+    }
+    input:last-child{
+      color: white;
+      background-color: $primaryColor;
+
+    }
   }
 }
