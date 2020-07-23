@@ -1,6 +1,6 @@
 .hero {
-  h1 {
-    font-size: 2.5rem;
+  .logo{
+    width: 30%;
   }
   a {
     font-size: 1.5rem;
@@ -113,8 +113,8 @@ footer{
 
 /******************* rentals *******************/
 .banner{
-  h1 {
-    font-size: 2.5rem;
+  .logo {
+    width: 30%;
   }
 
   a {
@@ -140,6 +140,12 @@ footer{
 }
 
 /******************* reservation *******************/
+.confirmation {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+/******************* reservation *******************/
 .tours {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -151,4 +157,9 @@ footer{
     padding: 1rem;
     margin-bottom: 0;
   }
+}
+
+/******************* Contact *******************/
+.wireframes {
+  width: 70%;
 }

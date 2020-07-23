@@ -3,6 +3,9 @@ main{
 }
 
 .hero {
+  .logo{
+    width: 25%;
+  }
   a {
     top: 10%;
     font-size: 1.5rem;
@@ -71,6 +74,9 @@ footer{
 
 /******************* rentals *******************/
 .banner{
+  .logo {
+    width: 25%;
+  }
   a {
     font-size: 1.5rem;
     padding: .5rem 1rem;
@@ -94,9 +100,36 @@ footer{
 }
 
 /******************* reservation *******************/
+.confirmation {
+  width: 50%;
+  margin: 5rem auto;
+}
+
+/******************* reservation *******************/
 .tours {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
   div{
     padding: 1rem;
   }
+}
+
+/******************* Contact *******************/
+.contact-us {
+  width: 60%;
+  font-size: 1.3rem;
+  iframe{
+    margin-bottom: 2rem;
+  }
+  .social-list {
+    i:hover {
+      transform: translate(0, -2px);
+      text-shadow: 0px 2px 3px #555;
+    }
+  }
+}
+
+/******************* Contact *******************/
+.wireframes {
+  width: 50%;
 }

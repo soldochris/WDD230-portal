@@ -15,17 +15,12 @@ body{
     display: inline-block;
   }
 
-  h1{
+  .logo{
     position: absolute;
-    margin:0;
+    margin: 0;
     top: 10%;
     left: 5%;
-    color: $primaryColor;
-    font-size: 2rem;
-    font-weight: 300;
-    text-shadow: 1px 2px 2px #555;
-    font-style: italic;
-    filter: drop-shadow(2px 2px #888);
+    width: 50%;
   }
 
   a{
@@ -310,17 +305,12 @@ footer{
 .banner{
   width: 100%;
   position: relative;
-  h1 {
+  .logo{
     position: absolute;
     margin: 0;
     top: 10%;
     left: 5%;
-    color: $primaryColor;
-    font-size: 2rem;
-    font-weight: 300;
-    text-shadow: 1px 2px 2px #555;
-    font-style: italic;
-    filter: drop-shadow(2px 2px #888);
+    width: 20%;
   }
   a {
     position: absolute;
@@ -431,6 +421,21 @@ footer{
   }
 }
 
+/******************* reservation *******************/
+.confirmation{
+  text-align: center;
+  border: solid 1px $primaryColor;
+  border-radius: .5rem;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  box-shadow: 3px 3px 3px #888;
+  h2 {
+    text-decoration: underline $primaryColor;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    margin-bottom: .5rem;
+  }
+}
+
 /******************* Tours *******************/
 .tours{
   display: flex;
@@ -467,4 +472,81 @@ footer{
     }
   }
   
+}
+
+/******************* Contact *******************/
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  h2 {
+    text-align: center;
+    text-decoration: underline $primaryColor;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    margin-bottom: .5rem;
+  }
+
+  ul {
+    list-style: none;
+    line-height: 1.7;
+    margin-bottom: 0;
+    padding-left: 5%;
+
+    iframe{
+      display: block;
+      width: 100%;
+      height: 20rem;
+      margin-bottom: 1rem;
+      border-radius: .5rem;
+    }
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: $textColor;
+    }
+
+    .fa {
+      color: $primaryColor;
+    }
+  }
+
+  .social-list {
+    display: flex;
+    font-size: 5rem;
+    width: 90%;
+    margin: 0;
+    justify-content: space-around;
+    li {
+      margin-right: 1rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+/******************* Contact *******************/
+.wireframes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+    text-decoration: underline $primaryColor;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    margin-bottom: .5rem;
+  }
+  img{
+    width: 100%;
+    margin-bottom: 3%;
+  }
 }

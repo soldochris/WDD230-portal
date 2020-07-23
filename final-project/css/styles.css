@@ -456,18 +456,12 @@ body {
   display: inline-block;
 }
 
-.hero h1 {
+.hero .logo {
   position: absolute;
   margin: 0;
   top: 10%;
   left: 5%;
-  color: #24D000;
-  font-size: 2rem;
-  font-weight: 300;
-  text-shadow: 1px 2px 2px #555;
-  font-style: italic;
-  -webkit-filter: drop-shadow(2px 2px #888);
-          filter: drop-shadow(2px 2px #888);
+  width: 50%;
 }
 
 .hero a {
@@ -804,18 +798,12 @@ footer p:last-child {
   position: relative;
 }
 
-.banner h1 {
+.banner .logo {
   position: absolute;
   margin: 0;
   top: 10%;
   left: 5%;
-  color: #24D000;
-  font-size: 2rem;
-  font-weight: 300;
-  text-shadow: 1px 2px 2px #555;
-  font-style: italic;
-  -webkit-filter: drop-shadow(2px 2px #888);
-          filter: drop-shadow(2px 2px #888);
+  width: 20%;
 }
 
 .banner a {
@@ -944,6 +932,24 @@ footer p:last-child {
   background-color: #24D000;
 }
 
+/******************* reservation *******************/
+.confirmation {
+  text-align: center;
+  border: solid 1px #24D000;
+  border-radius: .5rem;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 3px 3px 3px #888;
+          box-shadow: 3px 3px 3px #888;
+}
+
+.confirmation h2 {
+  -webkit-text-decoration: underline #24D000;
+          text-decoration: underline #24D000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: .5rem;
+}
+
 /******************* Tours *******************/
 .tours {
   display: -webkit-box;
@@ -994,9 +1000,107 @@ footer p:last-child {
   border-radius: .5rem;
 }
 
+/******************* Contact *******************/
+.contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.contact-us h2 {
+  text-align: center;
+  -webkit-text-decoration: underline #24D000;
+          text-decoration: underline #24D000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: .5rem;
+}
+
+.contact-us ul {
+  list-style: none;
+  line-height: 1.7;
+  margin-bottom: 0;
+  padding-left: 5%;
+}
+
+.contact-us ul iframe {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+}
+
+.contact-us ul li {
+  margin-bottom: 1rem;
+}
+
+.contact-us ul li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us ul a {
+  text-decoration: none;
+  color: #444a57;
+}
+
+.contact-us ul .fa {
+  color: #24D000;
+}
+
+.contact-us .social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 5rem;
+  width: 90%;
+  margin: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact-us .social-list li {
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+
+/******************* Contact *******************/
+.wireframes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wireframes h2 {
+  text-align: center;
+  -webkit-text-decoration: underline #24D000;
+          text-decoration: underline #24D000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: .5rem;
+}
+
+.wireframes img {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
 @media only screen and (min-width: 560px) {
-  .hero h1 {
-    font-size: 2.5rem;
+  .hero .logo {
+    width: 30%;
   }
   .hero a {
     font-size: 1.5rem;
@@ -1098,8 +1202,8 @@ footer p:last-child {
     font-size: .9rem;
   }
   /******************* rentals *******************/
-  .banner h1 {
-    font-size: 2.5rem;
+  .banner .logo {
+    width: 30%;
   }
   .banner a {
     font-size: 1.5rem;
@@ -1121,6 +1225,11 @@ footer p:last-child {
     width: 70%;
   }
   /******************* reservation *******************/
+  .confirmation {
+    width: 80%;
+    margin: 3rem auto;
+  }
+  /******************* reservation *******************/
   .tours {
     display: -ms-grid;
     display: grid;
@@ -1135,12 +1244,19 @@ footer p:last-child {
     padding: 1rem;
     margin-bottom: 0;
   }
+  /******************* Contact *******************/
+  .wireframes {
+    width: 70%;
+  }
 }
 
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   main {
     padding: 1rem;
+  }
+  .hero .logo {
+    width: 25%;
   }
   .hero a {
     top: 10%;
@@ -1204,6 +1320,9 @@ footer p:last-child {
     padding-bottom: .5rem;
   }
   /******************* rentals *******************/
+  .banner .logo {
+    width: 25%;
+  }
   .banner a {
     font-size: 1.5rem;
     padding: .5rem 1rem;
@@ -1222,12 +1341,35 @@ footer p:last-child {
     width: 45%;
   }
   /******************* reservation *******************/
+  .confirmation {
+    width: 50%;
+    margin: 5rem auto;
+  }
+  /******************* reservation *******************/
   .tours {
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.5rem;
   }
   .tours div {
     padding: 1rem;
+  }
+  /******************* Contact *******************/
+  .contact-us {
+    width: 60%;
+    font-size: 1.3rem;
+  }
+  .contact-us iframe {
+    margin-bottom: 2rem;
+  }
+  .contact-us .social-list i:hover {
+    -webkit-transform: translate(0, -2px);
+            transform: translate(0, -2px);
+    text-shadow: 0px 2px 3px #555;
+  }
+  /******************* Contact *******************/
+  .wireframes {
+    width: 50%;
   }
 }
 
